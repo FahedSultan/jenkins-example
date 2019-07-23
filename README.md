@@ -2,8 +2,9 @@
 
 ### Need to change the Local group policy setting:
 - Start run command
-- gpedit
-- -> locate Local Computer Policy
+- Type gpedit
+- Locate the following path-
+- -> Local Computer Policy
 - -> Computer
 - -> Administrative Templates 
 - -> Windows Components 
