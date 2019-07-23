@@ -10,6 +10,6 @@
 - -> Windows Components 
 - -> Remote Desktop Services
 - -> Remote Desktop Session Host
-- -> Device and Resource Redirection
-- -> ##Edit   - Do Not Allow Clipboard Redirection
-- -> #Enable - Do Not Allow Clipboard Redirection
+- -> Select - Device and Resource Redirection
+- -> Edit   - Do Not Allow Clipboard Redirection
+- -> Enable - Do Not Allow Clipboard Redirection
