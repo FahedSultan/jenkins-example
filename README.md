@@ -3,7 +3,10 @@
 ### Need to change the Local group policy setting:
 - Start run command
 - gpedit
-- locate Local Computer Policy
-- ->Computer
-- if the number is divisible by 5, you say Buzz
-- if neither, you say the number
+- -> locate Local Computer Policy
+- -> Computer
+- -> Administrative Templates 
+- -> Windows Components 
+- -> Terminal Services 
+- -> Client/Server Data Redirection 
+- -> Do Not Allow Clipboard Redirection
