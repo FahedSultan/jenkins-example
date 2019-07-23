@@ -2,12 +2,14 @@
 
 ### Need to change the Local group policy setting:
 - Start run command
-- Type gpedit
+- Type gpedit to open Local Group Policy Editor
 - Locate the following path-
 - -> Local Computer Policy
-- -> Computer
+- -> Computer Configuration
 - -> Administrative Templates 
 - -> Windows Components 
-- -> Terminal Services 
-- -> Client/Server Data Redirection 
-- -> Do Not Allow Clipboard Redirection
+- -> Remote Desktop Services
+- -> Remote Desktop Session Host
+- -> Device and Resource Redirection
+- -> Edit   - Do Not Allow Clipboard Redirection
+- -> Enable - Do Not Allow Clipboard Redirection
